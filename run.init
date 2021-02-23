@@ -2,6 +2,6 @@
 
 echo 'Initializing...'
 
-sudo apt update && sudo apt upgrade -Y
+sudo apt update && sudo apt -y upgrade
 
-cat packages | while read line; do sudo apt install -Y $line; done
+cat packages | while read line; do sudo apt -y install $line; done
