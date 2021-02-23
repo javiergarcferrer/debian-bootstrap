@@ -16,4 +16,6 @@ pgadmin4
 openssh-server
 python3-pandas
 jupyter
+nvidia-cuda-toolkit
 
+zsh

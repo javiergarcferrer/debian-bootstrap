@@ -2,6 +2,12 @@
 
 echo 'Initializing...'
 
+echo 'Changing Source List...'
+
+##implement source file cp command
+
+##implement third party sources cp command
+
 sudo apt update && sudo apt -y upgrade
 
 cat packages | while read line; do sudo apt -y install $line; done
