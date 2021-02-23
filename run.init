@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo 'Initializing...'
+
+sudo apt update && sudo apt upgrade -Y
+
+cat packages | while read line; do sudo apt install -Y $line; done
